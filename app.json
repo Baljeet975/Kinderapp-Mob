@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "kinderapp",
+    "slug": "kinderapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/kindericon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.baljeet975.kinderapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/kindericon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.baljeet975.kinderapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "01c71306-2072-4f55-8ddd-fd25534407c3"
+      }
+    }
+  }
+}
